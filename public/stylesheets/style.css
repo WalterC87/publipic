@@ -213,7 +213,7 @@ a#btnRegister{
 }
 
 .centrada{
-	background-color: rgba(125,125,125,0.3);
+	background-color: rgba(125,125,125,0.5);
 	left: 0;
 	right: 0;
 	top: 0;
@@ -231,7 +231,7 @@ a#btnRegister{
 }
 
 .centrada-success{
-	background-color: rgba(125,125,125,0.3);
+	background-color: rgba(125,125,125,0.5);
 	left: 0;
 	right: 0;
 	top: 0;
@@ -279,7 +279,7 @@ a#btnRegister{
 }
 
 .texto{
-	color: #fafafa;
+	color: #fff;
 	font-family: 'Open Sans';
 	font-size: 35px;
 	font-style: italic;
