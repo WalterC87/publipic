@@ -14,3 +14,7 @@ exports.registro = function(req, res){
 exports.success = function(req, res){
 	res.render('success', {title: 'PubliPic | Gracias por creer en nosotros'});
 };
+
+exports.registro_existe = function(req,res){
+	res.render('existe', {title: 'PubliPic | Ya eres parte de esta nueva experiencia'})
+}
