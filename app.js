@@ -35,7 +35,9 @@ if ('development' == app.get('env')) {
 }
 
 var indexController = require('./controllers/index');
+var apiController = require('./controllers/api');
 indexController(app);
+apiController(app);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

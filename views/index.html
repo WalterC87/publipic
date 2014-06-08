@@ -1,8 +1,148 @@
 {% extends 'layout.html' %}
+{% block container %}
+    <div id="wrapper_header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+  	    	  <img src="/images/publipic_logo.png" width="375px" alt="publipic">
+          </div>
+          <div class="col-md-8">
+            <div id="social">
+  	          <a href="https://www.facebook.com/pages/Publi-Pic/635366919874332" target="_blank">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/HEADER-->
 
-{%block container%}
+    <!--TOP-->
+    <div id="wrapper_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>¿Consumidores como agentes publicitarios de sus marcas favoritas?</h1>
+            <p>Nuestra herramienta permite que los clientes de los comercios se conviertan en agentes publicitarios de las mismas, a tráves del cumplimiento de desafíos y objetivos. A Cambio los clientes acumulan puntos que les permite canjear por beneficios y sus productos favoritos.</p>
+            <a href="/registro" id="btnRegister" style="margin: 10px auto;">Registrar</a>
+          </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-6">
+            <video width="100%"  controls>
+              <source src="movie.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/TOP-->
 
-	<h1>Hola Mundo</h1>
-	<p>Welcome Hola Mundo</p>
+    <!--CAROUSEL-->
+   <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+            <h1>Misi&oacute;n</h1>
+            <p style="font-size: 20px;color:#505050;">
+              Somos innovadores Guatemaltecos que buscamos cambiar el paradigma de la publicidad tradicional de manera de permitir que los propios clientes de una empresa se conviertan en agentes publicitarios a tráves del cumplimiento de desafios y objetivos impuestos por la empresa.
+              <br /><br />
+              Cada vez que nuestros usuarios cumplan un desafio u objetivo, acumulan puntos que luego pueden canjear por distintos beneficios y premios.
+            </p>
+        </div>
+        <div class="item">
+            <h1>Visi&oacute;n</h1>
+            <p style="font-size: 20px;color:#505050;">PubliPic es una herramienta que busca revolucionar el mecadeo de manera que los clientes de las empresas se convierten en sus agentes publicitarios y se beneficien por ello.</p>
+            <br /><br /><br /><br />
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev" style="background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.0001) 0);"> 
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-captions" data-slide="next" style="background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.0001) 0);">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+   </div>
+    <!--/CAROUSEL-->
 
+    <!--FEATURES-->
+    <div id="wrapper_features" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h1 style="text-align:center;">¿C&oacute;mo Funciona?</h1>
+         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon glyphicon-pencil"></span><br />
+          <strong>Inscr&iacute;bete</strong><br /> Fácil y Rápido
+        </div>
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon-heart"></span><br />
+          <strong>Escoge Tus Marcas Favoritas</strong><br /> Nuestra comunidad de marcas te esperan
+        </div>
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon-tasks"></span><br />
+          <strong>Cumple Las Metas y Desafios de tu Marca</strong><br /> ¡Algunas las puedes hacer desde el sofá!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon-plus"></span><br />
+          <strong>Acumula Puntos</strong><br /> Consigue puntos para aumentar tu reputación
+        </div>
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon-usd"></span><br />
+          <strong>Canjealos Por Tus Premios Favoritos</strong><br /> Tus marcas favoritas te recompensan por tu esfuerzo
+        </div>
+        <div class="col-md-4">
+          <span class="circled glyphicon glyphicon-cutlery"></span><br />
+          <strong>Disfruta de los Beneficios</strong><br /> La recompensa por tu trabajo
+        </div>
+      </div>
+    </div>
+    <!--/FEATURES-->
+
+    <!--TESTIMONIALS-->
+    <div id="wrapper_testimonials" class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h1 style="text-align:center;">Marcas que creen en nosotros</h1>
+         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 oscurecer">
+          <a href="http://www.max.com.gt/" target="_blank">
+        	 <img src="/images/logomax.png" width="250" height="132" alt="Tiendas Max"> 
+          </a>
+        </div>
+        <div class="col-md-4  oscurecer">
+          <a href="https://www.facebook.com/saulemendez" target="_blank">
+            <img src="/images/logo_saul_nuevo.png" width="175" height="100" alt="Tiendas Max"> 
+          </a>
+        </div>
+        <div class="col-md-4  oscurecer">
+          <a href="http://kipobusiness.com/" target="_blank">
+            <img src="/images/kipo.png" width="202" height="100" alt="Tiendas Max"> 
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--/TESTIMONIALS-->
+
+    <!--FOOTER-->
+    <div id="wrapper_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Se de nuestros primeros cliente y podrás obtener grandes beneficios extras.</p>
+            <a href="/registro" id="btnRegister">Registrar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 {%endblock%}
